@@ -1,10 +1,11 @@
 const config = require('./src/config');
 
 module.exports = {
+  // pathPrefix: 'https://github.com/pandyamarut/v1',
   siteMetadata: {
     title: 'Marut Pandya',
     description:
-      'MArut Pandya is a software engineer who specializes in building Full stack applications.',
+      'Marut Pandya is a software engineer who specializes in building Full stack applications.',
     siteUrl: 'https://marut.tech', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
