@@ -63,53 +63,53 @@ const StyledPic = styled.div`
     border-radius: var(--border-radius);
     background-color: var(--green);
 
-    &:hover,
-    &:focus {
-      outline: 0;
+    // &:hover,
+    // &:focus {
+    //   outline: 0;
 
-      &:after {
-        top: 15px;
-        left: 15px;
-      }
+    //   &:after {
+    //     top: 15px;
+    //     left: 15px;
+    //   }
 
-      .img {
-        filter: none;
-        mix-blend-mode: normal;
-      }
-    }
+    //   .img {
+    //     filter: none;
+    //     mix-blend-mode: normal;
+    //   }
+    // }
 
-    .img {
-      position: relative;
-      border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
-    }
+    // .img {
+    //   position: relative;
+    //   border-radius: var(--border-radius);
+    //   mix-blend-mode: multiply;
+    //   filter: grayscale(100%) contrast(1);
+    //   transition: var(--transition);
+    // }
 
-    &:before,
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: var(--border-radius);
-      transition: var(--transition);
-    }
+    // &:before,
+    // &:after {
+    //   content: '';
+    //   display: block;
+    //   position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    //   border-radius: var(--border-radius);
+    //   transition: var(--transition);
+    // }
 
-    &:before {
-      top: 0;
-      left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
-    }
+    // &:before {
+    //   top: 0;
+    //   left: 0;
+    //   background-color: var(--navy);
+    //   mix-blend-mode: screen;
+    // }
 
-    &:after {
-      border: 2px solid var(--green);
-      top: 20px;
-      left: 20px;
-      z-index: -1;
-    }
+    // &:after {
+    //   border: 2px solid var(--green);
+    //   top: 20px;
+    //   left: 20px;
+    //   z-index: -1;
+    // }
   }
 `;
 
@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Python',
+    'Node.js',
+    'Kubernetes',
+    'GraphQL',
+    'Go',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,13 +144,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! I am Marut Pandya, I am pursuing an MS in Computer Science at IIT, Chicago. I
+              am Innovative Software Engineer with 3 years of experience in application design,
+              development and deployment. Highly experienced in writing code and algorithms in
+              various programming languages.
             </p>
 
-            <p>
+            {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
@@ -150,15 +159,31 @@ const About = () => {
               main focus these days is building accessible, inclusive products and digital
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
               clients.
+            </p> */}
+            <p>
+              Possesses an unbridled passion for Software Engineering with comprehensive knowledge
+              of full stack development concepts and other related techniques. Unmatched abilities
+              to identify, understand and translate program requirements into advanced technical
+              solutions through Python, Go and JavaScript. My Adaptive nature fits me in almost all
+              technical verticals with a growth mindset. I love working in fast paced teams doing
+              countless brainstorming sessions to come up with the best. I love Problem solving.
+              Ownership, Leadership and Growth as an individual & in a team are roots for success I
+              believe and One being Empathetic can flourish in teams as an Individual.
             </p>
 
-            <p>
+            {/* <p>
               I also recently{' '}
               <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
                 launched a course
               </a>{' '}
               that covers everything you need to build a web app with the Spotify API using Node
               &amp; React.
+            </p> */}
+            <p>
+              Problem solving being the part of my job, I always think in a structured way. I love
+              doing groundwork i.e research and propose the best fit. Curiosity and Eagerness to
+              learn drives me to learn about the latest technologies and trends in the market, which
+              interests me in community work as well.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
