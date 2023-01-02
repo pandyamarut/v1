@@ -4,7 +4,7 @@ title: 'Software Engineering Intern'
 company: 'MayaData Inc.'
 location: 'Bengaluru, IND'
 range: 'January 2019 - August 2019'
-url: 'https://www.apple.com/music/'
+url: 'https://www.datacore.com/news-post/datacore-acquires-mayadata/'
 ---
 
 - Designed 7 grafana dashboards for application mysql, postgresql, minio, cassandra, cockroachdb by writing YAMLs and modifying JSON·

@@ -4,7 +4,7 @@ title: 'Member Of techincal staff'
 company: 'Deepfence Inc'
 location: 'Bengaluru, IND'
 range: 'December 2020 - June 2022'
-url: 'https://us.mullenlowe.com/'
+url: 'https://deepfence.io/'
 ---
 
 - Developed features in open source project threatmapper has 2000+ stars on github with 35+ contributions.
