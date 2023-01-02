@@ -4,7 +4,7 @@ title: 'Software Engineer'
 company: 'MayaData Inc.'
 location: 'Bengaluru, IND'
 range: 'August 2020 - November 2020'
-url: 'https://www.apple.com/music/'
+url: 'https://www.datacore.com/news-post/datacore-acquires-mayadata/'
 ---
 
 - Re-designed a service to automatically patch yaml for stateful workload running on kubernetes using Go.
