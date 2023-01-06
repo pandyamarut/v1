@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://marut.tech/sitemap.xml
+Host: https://marut.tech
